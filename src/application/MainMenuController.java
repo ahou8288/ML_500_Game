@@ -12,7 +12,6 @@ public class MainMenuController {
 	}
 	
 	public void handleSingleGame() {
-		System.out.println("test");
 		main.SwitchTo("SingleGame");
 	}
 }

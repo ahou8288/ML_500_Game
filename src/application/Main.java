@@ -6,6 +6,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.BorderPane;
 
 
 public class Main extends Application {
@@ -15,6 +16,8 @@ public class Main extends Application {
 	
 	Scene menuScene;
 	Scene singleGameScene;
+	MainMenuController mainMenuController;
+	SingleGameController singleGameController;
 	
 	@Override
 	public void start(Stage primaryStage) {
@@ -31,13 +34,13 @@ public class Main extends Application {
 			AnchorPane menuPane = menuLoader.load();
 			
 			FXMLLoader singleLoader = new FXMLLoader(Main.class.getResource("SingleGame.fxml"));
-			AnchorPane singlePane = singleLoader.load();
+			BorderPane singlePane = singleLoader.load();
 			
 			//Connect to controller
-			MainMenuController mainMenuController = menuLoader.getController();
+			mainMenuController = menuLoader.getController();
 			mainMenuController.setMain(this);
 
-			SingleGameController singleGameController = singleLoader.getController();
+			singleGameController = singleLoader.getController();
 			singleGameController.setMain(this);
 			
 			//Create a new scene on the primary stage
@@ -63,9 +66,9 @@ public class Main extends Application {
 		switch (newViewTitle){
 		case "SingleGame":
 			primaryStage.setScene(singleGameScene);
-			System.out.println("switching view to single game");
+			singleGameController.loadElements();
+			System.out.println("loaded elements");
 		}
-		
 	}
 }
  
