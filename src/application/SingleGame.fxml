@@ -10,16 +10,16 @@
    <children>
       <Pane layoutX="389.0" layoutY="327.0" prefHeight="303.0" prefWidth="553.0">
          <children>
-            <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="-45.0" x="100.0" y="100.0" />
-            <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="-35.0" x="100.0" y="100.0" />
-            <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="-25.0" x="100.0" y="100.0" />
-            <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="-15.0" x="100.0" y="100.0" />
-            <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="-5.0" x="100.0" y="100.0" />
-            <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="5.0" x="100.0" y="100.0" />
-            <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="15.0" x="100.0" y="100.0" />
-            <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="25.0" x="100.0" y="100.0" />
-            <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="35.0" x="100.0" y="100.0" />
-            <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="45.0" x="100.0" y="100.0" />
+            <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" rotate="-45.0" x="-6.1" y="93.9"/>
+            <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" rotate="-35.0" x="14.0" y="77.1"/>
+            <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" rotate="-25.0" x="36.6" y="64.1"/>
+            <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" rotate="-15.0" x="61.2" y="55.1"/>
+            <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" rotate="-5.0" x="86.9" y="50.6"/>
+            <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" rotate="5.0" x="113.1" y="50.6"/>
+            <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" rotate="15.0" x="138.8" y="55.1"/>
+            <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" rotate="25.0" x="163.4" y="64.1"/>
+            <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" rotate="35.0" x="186.0" y="77.1"/>
+            <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" rotate="45.0" x="206.1" y="93.9"/>
          </children>
       </Pane>
    </children>
