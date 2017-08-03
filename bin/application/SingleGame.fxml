@@ -8,7 +8,7 @@
 
 <AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SingleGameController">
    <children>
-      <Pane layoutX="400" layoutY="50" prefHeight="320.0" prefWidth="510.0">
+      <Pane layoutX="400" prefHeight="320.0" prefWidth="510.0">
          <children>
             <ImageView fx:id="north_0" fitHeight="200.0" fitWidth="200.0" layoutX="48.0" layoutY="-31.0" pickOnBounds="true" preserveRatio="true" rotate="-45.0" x="-6.1" y="93.9" />
             <ImageView fx:id="north_1" fitHeight="200.0" fitWidth="200.0" layoutX="48.0" layoutY="-31.0" pickOnBounds="true" preserveRatio="true" rotate="-35.0" x="14.0" y="77.1" />
@@ -36,7 +36,7 @@
             <ImageView fx:id="south_9" fitHeight="200.0" fitWidth="200.0" layoutX="48.0" layoutY="-31.0" pickOnBounds="true" preserveRatio="true" rotate="45.0" x="206.1" y="93.9" />
          </children>
       </Pane>
-      <Pane layoutX="600" layoutY="175" prefHeight="320.0" prefWidth="510.0">
+      <Pane layoutX="770.0" layoutY="175" prefHeight="320.0" prefWidth="510.0">
          <children>
             <ImageView fx:id="east_0" fitHeight="200.0" fitWidth="200.0" layoutX="48.0" layoutY="-31.0" pickOnBounds="true" preserveRatio="true" rotate="-45.0" x="-6.1" y="93.9" />
             <ImageView fx:id="east_1" fitHeight="200.0" fitWidth="200.0" layoutX="48.0" layoutY="-31.0" pickOnBounds="true" preserveRatio="true" rotate="-35.0" x="14.0" y="77.1" />
@@ -50,7 +50,7 @@
             <ImageView fx:id="east_9" fitHeight="200.0" fitWidth="200.0" layoutX="48.0" layoutY="-31.0" pickOnBounds="true" preserveRatio="true" rotate="45.0" x="206.1" y="93.9" />
          </children>
       </Pane>
-      <Pane layoutX="200" layoutY="175" prefHeight="320.0" prefWidth="510.0">
+      <Pane layoutY="175" prefHeight="320.0" prefWidth="510.0">
          <children>
             <ImageView fx:id="west_0" fitHeight="200.0" fitWidth="200.0" layoutX="48.0" layoutY="-31.0" pickOnBounds="true" preserveRatio="true" rotate="-45.0" x="-6.1" y="93.9" />
             <ImageView fx:id="west_1" fitHeight="200.0" fitWidth="200.0" layoutX="48.0" layoutY="-31.0" pickOnBounds="true" preserveRatio="true" rotate="-35.0" x="14.0" y="77.1" />
