@@ -6,7 +6,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.BorderPane;
 
 
 public class Main extends Application {
@@ -22,8 +21,8 @@ public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		this.primaryStage=primaryStage;
+		primaryStage.setTitle("500 Game");
 		mainWindow();
-//		primaryStage.show();
 	}
 	
 	public void mainWindow() {
@@ -34,7 +33,7 @@ public class Main extends Application {
 			AnchorPane menuPane = menuLoader.load();
 			
 			FXMLLoader singleLoader = new FXMLLoader(Main.class.getResource("SingleGame.fxml"));
-			BorderPane singlePane = singleLoader.load();
+			AnchorPane singlePane = singleLoader.load();
 			
 			//Connect to controller
 			mainMenuController = menuLoader.getController();
