@@ -8,61 +8,19 @@
 
 <AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SingleGameController">
    <children>
-      <VBox prefHeight="720.0" prefWidth="100.0" style="-fx-background-color: grey;" AnchorPane.bottomAnchor="-280.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <Pane layoutX="389.0" layoutY="327.0" prefHeight="303.0" prefWidth="553.0">
          <children>
-            <ImageView fx:id="w0" fitHeight="72" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="w1" fitHeight="72" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="w2" fitHeight="72" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="w3" fitHeight="72" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="w4" fitHeight="72" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="w5" fitHeight="72" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="w6" fitHeight="72" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="w7" fitHeight="72" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="w8" fitHeight="72" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="w9" fitHeight="72" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="-45.0" x="100.0" y="100.0" />
+            <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="-35.0" x="100.0" y="100.0" />
+            <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="-25.0" x="100.0" y="100.0" />
+            <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="-15.0" x="100.0" y="100.0" />
+            <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="-5.0" x="100.0" y="100.0" />
+            <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="5.0" x="100.0" y="100.0" />
+            <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="15.0" x="100.0" y="100.0" />
+            <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="25.0" x="100.0" y="100.0" />
+            <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="35.0" x="100.0" y="100.0" />
+            <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" rotate="45.0" x="100.0" y="100.0" />
          </children>
-      </VBox>
-      <VBox layoutX="1180.0" prefHeight="720.0" prefWidth="100.0" style="-fx-background-color: grey;" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-         <children>
-            <ImageView fx:id="e0" fitHeight="72" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="e1" fitHeight="72" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="e2" fitHeight="72" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="e3" fitHeight="72" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="e4" fitHeight="72" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="e5" fitHeight="72" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="e6" fitHeight="72" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="e7" fitHeight="72" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="e8" fitHeight="72" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="e9" fitHeight="72" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-         </children>
-      </VBox>
-      <HBox layoutX="280.0" prefHeight="100.0" prefWidth="720.0" spacing="20.0" style="-fx-background-color: grey;" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="0.0">
-         <children>
-            <ImageView fx:id="n0" fitHeight="100" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="n1" fitHeight="100" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="n2" fitHeight="100" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="n3" fitHeight="100" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="n4" fitHeight="100" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="n5" fitHeight="100" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="n6" fitHeight="100" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="n7" fitHeight="100" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="n8" fitHeight="100" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="n9" fitHeight="100" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-         </children>
-      </HBox>
-      <HBox layoutX="274.0" layoutY="620.0" prefHeight="100.0" prefWidth="720.0" style="-fx-background-color: grey;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0">
-         <children>
-            <ImageView fx:id="s0" fitHeight="100" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="s1" fitHeight="100" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="s2" fitHeight="100" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="s3" fitHeight="100" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="s4" fitHeight="100" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="s5" fitHeight="100" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="s6" fitHeight="100" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="s7" fitHeight="100" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="s8" fitHeight="100" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="s9" fitHeight="100" fitWidth="100" pickOnBounds="true" preserveRatio="true" />
-         </children>
-      </HBox>
+      </Pane>
    </children>
 </AnchorPane>
