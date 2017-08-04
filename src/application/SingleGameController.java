@@ -16,6 +16,9 @@ public class SingleGameController {
 	@FXML private ImageView south_0,south_1,south_2,south_3,south_4,south_5,south_6,south_7,south_8,south_9;
 	@FXML private ImageView west_0,west_1,west_2,west_3,west_4,west_5,west_6,west_7,west_8,west_9;
 	@FXML private ImageView east_0,east_1,east_2,east_3,east_4,east_5,east_6,east_7,east_8,east_9;
+
+	// Stores the game that is curently being played
+	private ManagedGame game;
 	
 	public void setMain(Main main) {
 		this.main = main;
@@ -32,8 +35,15 @@ public class SingleGameController {
 		loadSide(southImages,northExtensions);
 		loadSide(eastImages,northExtensions);
 		loadSide(westImages,northExtensions);
+		
+		beginGame();
 	}
 	
+	private void beginGame() {
+		this.game= new ManagedGame();
+		
+	}
+
 	public void loadSide(List<ImageView> images, List<String> extensions) {
 		String basePath = "images/";
 		String filetype = ".png";

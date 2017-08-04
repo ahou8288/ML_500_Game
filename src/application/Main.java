@@ -47,6 +47,7 @@ public class Main extends Application {
 			singleGameScene = new Scene(singlePane);
 			
 			primaryStage.setScene(menuScene);
+			primaryStage.setMaximized(true);
 			primaryStage.show();
 			
 		} catch (IOException e) {
